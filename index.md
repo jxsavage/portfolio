@@ -51,5 +51,7 @@ As the code base grew there were several areas I noticed where bugs tended to po
 
 ## SELENIUM AUTOMATION TESTING:
 ***
-### Repository:
+
+I've recently started playing around with Selenium and really like it. I found a site that permits you to run automation tools against a test site they built so I began writing tests for that site. I noticed myself repeating a lot of the same functionality test to test so I began breaking certain things I repeated into their own fuctions so I could re-use them efficiently.
+### Repository: [Link](https://github.com/jxsavage/selenium-demo)
 
