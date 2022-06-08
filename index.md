@@ -11,6 +11,9 @@ show_downloads: false
 ## Remote Controlled Lighting:
 ***
 
+![Venue Lighting](https://user-images.githubusercontent.com/2956515/172713433-ae3a46c5-d56d-4d29-8e2c-176798a51b02.png)
+
+***
   This project was a way for me to experiement with various web technologies including React, Redux, WebSockets, Redis and working with microcontrollers. Building this project I became very comfortable with asynchronous programming and promises in TypeScript and JavaScript as every step of communication required asynchronous calls.
 
   Through a web interface you can interact with microcontrollers that control the LED light bars directly. You can do things like:
@@ -41,6 +44,9 @@ As the code base grew there were several areas I noticed where bugs tended to po
 - **Save Multiple Presets:** The ability to save multiple setting configuations and choose between them with a user interface.
 - **Improve Handling of Bluetooth Connections:** I've tested up to 3 Bluetooth devices and 7 is the hard limit, but in order to expand passed those limitations I would need to make a way for a client to claim certain bluetooth devices so others don't attempt to connect which disconnects the original device. An alternate solution could be to move to using WiFi instead eliminating the need to manage that.
 - **Change the LED Library on the microcontroller:** The current library I use requires the pins to control the LEDs as well as the LED stip length to be known at compile time. This means I cannot change them at run time. There is another library I found where this would be possible.
+
+### Project Photos
+![Venue Lighting](https://user-images.githubusercontent.com/2956515/172713484-da150b46-246e-4ef6-9dee-3ea5bacfc143.png)
   
 ### Repositories:
 - [Remote Lights Server](https://github.com/jxsavage/remote-lights-pi)
